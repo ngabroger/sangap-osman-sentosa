@@ -19,15 +19,10 @@ export function NavbarComponent() {
     };
   }, []);
   return (
-    <Navbar
-      fluid
-      id="navbar"
-      className="sticky-navbar bg-transparent text-white p-5 "
-    >
+    <Navbar fluid id="navbar" className="sticky-navbar  p-5 sticky ">
       <Navbar.Brand href="#" className="">
         <span className="self-center whitespace-nowrap text-xl md:text-3xl font-semibold  font-primaryBold">
-          Sangap <span className="dark:text-blue-300 text-blue-500">Osman</span>{' '}
-          Sentosa
+          Sangap <span className=" text-blue-500">Osman</span> Sentosa
         </span>
       </Navbar.Brand>
       <div className="flex md:order-1">

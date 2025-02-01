@@ -1,43 +1,38 @@
-
-
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-
-@font-face{
-  font-family: "ubuntu-regular";
-  src: url("assets/font/Ubuntu-Regular.ttf") format("truetype");
+@font-face {
+  font-family: 'ubuntu-regular';
+  src: url('assets/font/Ubuntu-Regular.ttf') format('truetype');
 }
 
-@font-face{
-  font-family: "ubuntu-bold";
-  src: url("assets/font/Ubuntu-Bold.ttf") format("truetype");
+@font-face {
+  font-family: 'ubuntu-bold';
+  src: url('assets/font/Ubuntu-Bold.ttf') format('truetype');
 }
 
-@font-face{
-  font-family: "ubuntu-medium";
-  src: url("assets/font/Ubuntu-Medium.ttf") format("truetype");
+@font-face {
+  font-family: 'ubuntu-medium';
+  src: url('assets/font/Ubuntu-Medium.ttf') format('truetype');
 }
 
-body{
-  font-family: "ubuntu-regular" ,sans-serif;
-  
+body {
+  font-family: 'ubuntu-regular', sans-serif;
 }
 
 .logo-svg {
-  fill: #3021ff; 
+  fill: #3021ff;
 }
 
 .dark .logo-svg {
-  fill: #ffffff; 
+  fill: #ffffff;
 }
 
 .background-image {
   background-image: url('assets/images/second-image.png'); /* Ganti dengan path ke gambar Anda */
   background-size: cover;
- 
+
   background-repeat: no-repeat;
 }
 
@@ -57,16 +52,18 @@ body{
 
 .navbar-scrolled {
   background-color: #ffffff;
-  color: black; 
+  color: black;
 }
-
-
-
-
 
 .scroller {
   overflow: hidden;
-  -webkit-mask: linear-gradient(90deg, transparent, white 20%, white 80%, transparent);
+  -webkit-mask: linear-gradient(
+    90deg,
+    transparent,
+    white 20%,
+    white 80%,
+    transparent
+  );
   mask: linear-gradient(90deg, transparent, white 20%, white 80%, transparent);
 }
 
