@@ -9,7 +9,7 @@ export function HeroComponent() {
       <p className="text-2xl mt-4 text-white font-bold ">
         Melindungi Seluruh <span className="text-blue-400"> RUMAH</span> Anda
       </p>
-      <div className="justify-center w-1/2 bottom-0 absolute">
+      <div className="justify-center w-3/4 md:w-1/2 bottom-0 absolute">
         <h2 className="text-center p-12 text-3xl font-bold text-white">
           Our Product
         </h2>
