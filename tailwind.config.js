@@ -1,22 +1,23 @@
-const flowbite = require("flowbite-react/tailwind");
+const flowbite = require('flowbite-react/tailwind');
 /** @type {import('tailwindcss').Config} */
 export default {
-  content: [
-    "./index.html",
-    "./src/**/*.{js,jsx,ts,tsx}",
-    flowbite.content(),
-  ],
+  content: ['./index.html', './src/**/*.{js,jsx,ts,tsx}', flowbite.content()],
   theme: {
     extend: {
-      fontFamily:{
-        primaryRegular : ['ubuntu-regular'],
-        primaryMedium : ['ubuntu-medium'],
-        primaryBold : ['ubuntu-bold'],
-      }
+      fontFamily: {
+        primaryRegular: ['ubuntu-regular'],
+        primaryMedium: ['ubuntu-medium'],
+        primaryBold: ['ubuntu-bold'],
+      },
+      keyframes: {
+        scroll: {
+          '100%': { transform: 'translate(calc(-50% - 0.50rem), 0)' },
+        },
+      },
+      animation: {
+        scroll: 'scroll 10s linear infinite',
+      },
     },
   },
-  plugins: [
-    flowbite.plugin(),
-  ],
-}
-
+  plugins: [flowbite.plugin()],
+};
