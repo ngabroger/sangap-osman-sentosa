@@ -9,9 +9,7 @@ function App() {
     <div className="min-h-screen">
       <NavbarComponent />
 
-      <div className="background-image min-h-screen">
-        <HeroComponent />
-      </div>
+      <HeroComponent />
       <AboutComponent />
     </div>
   );

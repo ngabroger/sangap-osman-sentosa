@@ -8,6 +8,8 @@ export default {
         primaryRegular: ['ubuntu-regular'],
         primaryMedium: ['ubuntu-medium'],
         primaryBold: ['ubuntu-bold'],
+        secondaryBold: ['zonapro-bold'],
+        secondaryLight: ['zonapro-light'],
       },
       keyframes: {
         scroll: {

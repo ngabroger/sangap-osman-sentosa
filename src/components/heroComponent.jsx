@@ -1,20 +1,35 @@
 import { SliderComponent } from './sliderComponents';
 import React from 'react';
+import { HiOutlineArrowRight } from 'react-icons/hi';
 export function HeroComponent() {
   return (
-    <div className="items-center flex flex-col  h-screen dark:bg-gray-800">
-      <h1 className="text-3xl font-bold text-white mt-32">
-        CAT PELAPIS ANTI BOCOR:
-      </h1>
-      <p className="text-2xl mt-4 text-white font-bold ">
-        Melindungi Seluruh <span className="text-blue-400"> RUMAH</span> Anda
-      </p>
-      <div className="justify-center w-3/4 md:w-1/2 bottom-16 absolute">
-        <h2 className="text-center p-12 text-3xl font-bold text-white">
-          Our Product
-        </h2>
-        <SliderComponent />
-      </div>
+    <div className="items-center flex flex-col  h-screen dark:bg-gray-800  ">
+      <section class="bg-center md:rounded-3xl bg-no-repeat background-image bg-gray-400 bg-blend-multiply">
+        <div class="px-4 mx-auto max-w-screen-xl w-screen text-center py-24 lg:py-56">
+          <h1 class="mb-16 text-6xl font-extrabold font-secondaryBold tracking-tight leading-none text-white md:text-6xl lg:text-9xl">
+            Extreme Waterproof
+          </h1>
+
+          <div class="flex flex-col space-y-4 sm:flex-row sm:justify-center sm:space-y-0 text-start">
+            <div className="lg:right-2/3 lg:absolute lg:w-[25%]">
+              <div class="flex flex-col items-start bg-gray-500 border  bg-opacity-30 backdrop-blur-sm border-gray-200 rounded-lg shadow-sm md:flex-row md:max-w-xl  dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
+                <div class="flex flex-col justify-between p-4 leading-normal">
+                  <p class="mb-3  text-white font-primaryRegular font-normal  dark:text-gray-400">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Nemo officia numquam quaerat recusandae voluptatum neque.
+                  </p>
+                  <div>
+                    <button className="bg-black flex px-8 py-3 rounded-lg text-sm text-white  hover:bg-gray-600 border border-white border-spacing-1">
+                      View More
+                      <HiOutlineArrowRight className="ml-2 h-5 w-5" />
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </div>
   );
 }

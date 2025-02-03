@@ -16,6 +16,14 @@
   font-family: 'ubuntu-medium';
   src: url('assets/font/Ubuntu-Medium.ttf') format('truetype');
 }
+@font-face {
+  font-family: 'zonapro-bold';
+  src: url('assets/font/ZonaPro-Bold.otf') format('opentype');
+}
+@font-face {
+  font-family: 'zonapro-light';
+  src: url('assets/font/ZonaPro-ExtraLight.otf') format('opentype');
+}
 
 body {
   font-family: 'ubuntu-regular', sans-serif;
