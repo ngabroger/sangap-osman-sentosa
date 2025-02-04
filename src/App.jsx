@@ -3,8 +3,10 @@ import './index.css';
 import NavbarComponent from './components/navbar';
 import HeroComponent from './components/heroComponent';
 import FirstSection from './components/FirstSection';
-import ProductComponent from './components/productComponent';
+import ThirdSection from './components/ThirdSection';
 import SecondSection from './components/SecondSection';
+import ForthSection from './components/forthSection';
+import FooterSection from './components/footerSection';
 
 function App() {
   return (
@@ -12,8 +14,10 @@ function App() {
       <NavbarComponent />
       <HeroComponent />
       <FirstSection />
-      <ProductComponent />
+      <ThirdSection />
       <SecondSection />
+      <ForthSection />
+      <FooterSection />
     </div>
   );
 }
