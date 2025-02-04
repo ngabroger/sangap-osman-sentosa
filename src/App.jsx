@@ -5,7 +5,7 @@ import HeroComponent from './components/heroComponent';
 import FirstSection from './components/FirstSection';
 import ThirdSection from './components/ThirdSection';
 import SecondSection from './components/SecondSection';
-import ForthSection from './components/forthSection';
+// import ForthSection from './components/forthSection';
 import FooterSection from './components/footerSection';
 
 function App() {
@@ -16,7 +16,7 @@ function App() {
       <FirstSection />
       <ThirdSection />
       <SecondSection />
-      <ForthSection />
+      {/* <ForthSection /> */}
       <FooterSection />
     </div>
   );
