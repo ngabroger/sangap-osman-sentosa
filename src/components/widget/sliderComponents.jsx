@@ -1,9 +1,9 @@
 import React, { useEffect } from 'react';
-import image1 from '../assets/images/images1.png';
-import images2 from '../assets/images/images2.png';
-import images3 from '../assets/images/images3.png';
-import images4 from '../assets/images/images4.png';
-import '../index.css';
+import image1 from '../../assets/images/images1.png';
+import images2 from '../../assets/images/images2.png';
+import images3 from '../../assets/images/images3.png';
+import images4 from '../../assets/images/images4.png';
+import '../../index.css';
 
 export function SliderComponent() {
   const logos = [

@@ -1,16 +1,19 @@
 import React from 'react';
 import './index.css';
-import { NavbarComponent } from './components/navbar';
-import { HeroComponent } from './components/heroComponent';
-import { AboutComponent } from './components/aboutComponent';
-AboutComponent;
+import NavbarComponent from './components/navbar';
+import HeroComponent from './components/heroComponent';
+import FirstSection from './components/FirstSection';
+import ProductComponent from './components/productComponent';
+import SecondSection from './components/SecondSection';
+
 function App() {
   return (
-    <div className="min-h-screen">
+    <div className="">
       <NavbarComponent />
-
       <HeroComponent />
-      <AboutComponent />
+      <FirstSection />
+      <ProductComponent />
+      <SecondSection />
     </div>
   );
 }

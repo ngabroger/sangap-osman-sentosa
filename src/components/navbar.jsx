@@ -2,7 +2,7 @@ import { useEffect } from 'react';
 import { Navbar } from 'flowbite-react';
 import '../index.css';
 
-export function NavbarComponent() {
+export default function NavbarComponent() {
   useEffect(() => {
     const handleScroll = () => {
       const navbar = document.getElementById('navbar');
