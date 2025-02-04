@@ -1,7 +1,7 @@
 import React from 'react';
 export default function FirstSection() {
   return (
-    <section className="min-h-screen flex items-center justify-center md:p-12">
+    <section className="min-h-screen w-screen flex items-center justify-center md:p-12">
       <div className="grid md:grid-cols-4 gap-8 max-w-screen">
         {/* Gambar utama */}
         <div className=" md:col-span-3 background-image-2 md:rounded-xl flex bg-gray-300 bg-blend-multiply bg-center items-end h-auto">
@@ -42,13 +42,13 @@ export default function FirstSection() {
               <span className=" text-white px-3 py-2  rounded-full text-xs font-secondaryBold border border-white">
                 Best Seller
               </span>
-              <p className="w-64 mt-5 font-secondaryBold text-white">
+              <p className="w-fit mt-5 font-secondaryBold text-white">
                 cari barang yang ada inginkan untuk rumah anda!
               </p>
             </div>
-            <div className="z-50 flex justify-end items-end absolute -bottom-2 -right-5">
+            <div className="z-50 flex justify-end items-end absolute md:-bottom-5 -bottom-5 right-4 md:right-0">
               <div className="bg-white rounded-full w-16 h-16 flex items-center justify-center ">
-                <button className="  bg-gray-900 text-white rounded-full w-12 h-12  items-center justify-center hover:bg-gray-800">
+                <button className="arrow-button  bg-gray-900 text-white rounded-full w-12 h-12  items-center justify-center hover:bg-gray-800">
                   ➜
                 </button>
               </div>

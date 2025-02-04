@@ -103,3 +103,12 @@ body {
   width: max-content;
   flex-wrap: nowrap;
 }
+
+.arrow-button {
+  transform: rotate(300deg);
+  transition: transform 0.3s ease;
+}
+
+.arrow-button:hover {
+  transform: rotate(360deg);
+}
