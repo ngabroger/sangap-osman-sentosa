@@ -26,9 +26,10 @@ export default function FooterSection() {
         <div className="flex flex-col gap-3">
           <h2 className="text-2xl font-secondaryBold">About Us</h2>
           <p className="text-sm">
-            We are a leading company in the paint industry, committed to
-            providing high-quality and innovative wall paint solutions. Our
-            mission is to transform spaces with colors that inspire and last.
+            Kami adalah perusahaan terkemuka dalam industri cat, yang
+            berkomitmen untuk menyediakan solusi cat tembok berkualitas tinggi
+            dan inovatif. Misi kami adalah mengubah ruangan dengan warna yang
+            menginspirasi dan tahan lama.
           </p>
         </div>
         <div className="flex flex-col gap-3">
