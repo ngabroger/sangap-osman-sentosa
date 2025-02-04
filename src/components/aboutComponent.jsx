@@ -4,25 +4,26 @@ import backgroundImage from '../assets/images/second-image.png';
 export function AboutComponent() {
   return (
     <div className="min-h-screen bg-[#f9f6f1] flex items-center justify-center md:p-12">
-      <div className="grid md:grid-cols-2 gap-8 max-w-screen">
+      <div className="grid md:grid-cols-3 gap-8 max-w-screen">
         {/* Gambar utama */}
-        <div className="relative">
-          <img
-            src={backgroundImage}
-            alt="sos"
-            className="md:rounded-lg shadow-lg w-screen h-auto"
-          />
-          <div className="absolute bottom-4 left-4 bg-white px-3 py-1 rounded-full text-sm font-medium shadow-md">
-            Meningkatkan Kualitas Ruangan
+        <div className=" md:col-span-2 background-image rounded-xl flex bg-gray-400 bg-blend-multiply items-end h-auto">
+          <div className="relative mt-52">
+            <div className="bg-white rounded-tr-xl w-fit items-center ">
+              <button className="bg-transparent py-2 px-5 my-3 mx-3 md:mx-12   h-min border  border-black rounded-full text-black hover:bg-black hover:text-white">
+                Find More Now
+              </button>
+            </div>
+            <div className=" bg-white rounded-tr-xl w-fit items-center text-4xl md:text-7xl p-3 ">
+              <h2 className="font-secondaryBold me-6">Inovasi Cat </h2>
+            </div>
+            <div className="bg-white rounded-tr-xl w-fit items-center text-4xl md:text-6xl xl:text-7xl p-3 ">
+              <h2 className="font-secondaryBold me-6">Tembok Berkualitas </h2>
+            </div>
           </div>
         </div>
 
         {/* Konten kanan */}
-        <div className="flex flex-col justify-between ">
-          <h1 className="text-4xl font-bold text-center md:text-start text-gray-900">
-            Inovasi Cat Tembok Berkualitas
-          </h1>
-
+        <div className="flex flex-col  justify-evenly ">
           <div className="bg-white p-4 rounded-xl shadow-md">
             <span className="bg-gray-200 text-gray-700 px-3 py-1 rounded-full text-xs">
               Teknologi Terdepan
