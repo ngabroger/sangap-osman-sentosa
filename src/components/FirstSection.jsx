@@ -4,7 +4,7 @@ export default function FirstSection() {
     <section className="min-h-screen flex items-center justify-center md:p-12">
       <div className="grid md:grid-cols-4 gap-8 max-w-screen">
         {/* Gambar utama */}
-        <div className=" md:col-span-3 background-image md:rounded-xl flex bg-gray-400 bg-blend-multiply items-end h-auto">
+        <div className=" md:col-span-3 background-image-2 md:rounded-xl flex bg-gray-300 bg-blend-multiply bg-center items-end h-auto">
           <div className="relative mt-52">
             <div className="bg-white rounded-tr-xl w-fit items-start  ">
               <button className="bg-transparent py-2 px-5 my-3 mx-3 md:mx-12   h-min border  border-black rounded-full text-black hover:bg-black hover:text-white">
@@ -37,7 +37,7 @@ export default function FirstSection() {
             </h2>
           </div>
 
-          <div className="relative w-full h-full mt-5  shadow-lg background-image bg-gray-400 bg-blend-multiply  md:rounded-xl">
+          <div className="relative w-full h-full mt-5  shadow-lg bg-center background-image-3 bg-gray-400 bg-blend-multiply  md:rounded-xl">
             <div className="justify-start items-start p-5 ">
               <span className=" text-white px-3 py-2  rounded-full text-xs font-secondaryBold border border-white">
                 Best Seller

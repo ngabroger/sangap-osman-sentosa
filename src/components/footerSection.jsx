@@ -1,4 +1,4 @@
-import image1 from '../assets/images/second-image.png';
+import image1 from '../assets/images/background-image-5.png';
 import image2 from '../assets/images/logosos.svg';
 export default function FooterSection() {
   return (
@@ -11,11 +11,10 @@ export default function FooterSection() {
               <span className="block md:mt-6">Conversation.</span>
             </h2>
             <p className="mt-12 text-justify md:text-start">
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia
-              dolores laborum necessitatibus! Distinctio laborum eveniet iure
-              mollitia, ea architecto minus? Lorem ipsum dolor sit amet
-              consectetur adipisicing elit. Omnis necessitatibus quisquam
-              possimus quod culpa voluptatibus!
+              Kami menghargai masukan Anda dan selalu siap membantu Anda. Jika
+              Anda memiliki pertanyaan tentang produk kami, butuh saran untuk
+              proyek Anda berikutnya, atau ingin berbagi pengalaman dengan kami,
+              kami siap membantu Anda.
             </p>
           </div>
         </div>
@@ -27,20 +26,25 @@ export default function FooterSection() {
         <div className="flex flex-col gap-3">
           <h2 className="text-2xl font-secondaryBold">About Us</h2>
           <p className="text-sm">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
-            quod, quae, voluptatum, quos quas dolorum.
+            We are a leading company in the paint industry, committed to
+            providing high-quality and innovative wall paint solutions. Our
+            mission is to transform spaces with colors that inspire and last.
           </p>
         </div>
         <div className="flex flex-col gap-3">
           <h2 className="text-2xl font-secondaryBold">Services</h2>
           <p className="text-sm">Painting</p>
-          <p className="text-sm">Renovation</p>
           <p className="text-sm">Consultation</p>
+          <p className="text-sm">Custom Color Matching</p>
         </div>
         <div className="flex flex-col gap-3">
           <h2 className="text-2xl font-secondaryBold">Contact Us</h2>
-          <p className="text-sm">+62 812 3456 7890</p>
-          <p className="text-sm"></p>
+          <p className="text-sm">Phone: +62 851 5677 0062</p>
+          <p className="text-sm">Email: sangaposmansentosa@gmail.com</p>
+          <p className="text-sm">
+            Address: Jl Kampung Pisang RT 01 RW 06 Kel, Karadenan Kec, Cibinong
+            Kab Bogor Jawa Barat
+          </p>
         </div>
         <div>
           <img src={image2} className="w-52" alt="" />
