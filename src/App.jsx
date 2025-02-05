@@ -6,6 +6,7 @@ import FirstSection from './components/FirstSection';
 import ThirdSection from './components/ThirdSection';
 import SecondSection from './components/SecondSection';
 // import ForthSection from './components/forthSection';
+import CatalogSection from './components/CatalogSection'
 import FooterSection from './components/footerSection';
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
       <FirstSection />
       <ThirdSection />
       <SecondSection />
+      <CatalogSection/>
       {/* <ForthSection /> */}
       <FooterSection />
     </div>
