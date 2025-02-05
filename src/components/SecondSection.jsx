@@ -3,7 +3,7 @@ import imageBackground from '../assets/images/background-image-4.png';
 
 export default function SecondSection() {
   return (
-    <section className="h-screen  flex justify-center items-center  w-full max-w-screen">
+    <section className="h-screen  flex justify-center items-center  w-fit">
       <div className="grid md:grid-cols-4 gap-14 h-full  ">
         <div className=" md:col-span-2 md:py-28 justify-center  w-full max-w-screen ">
           <img

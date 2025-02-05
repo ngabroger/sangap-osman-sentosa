@@ -1,7 +1,7 @@
 import React from 'react';
 export default function FirstSection() {
   return (
-    <section className="min-h-screen w-screen flex items-center justify-center md:p-12">
+    <section className="min-h-screen  flex items-center overflow-hidden justify-center md:p-12">
       <div className="grid md:grid-cols-4 gap-8 max-w-screen">
         {/* Gambar utama */}
         <div className=" md:col-span-3 background-image-2 md:rounded-xl flex bg-gray-300 bg-blend-multiply bg-center items-end h-auto">
