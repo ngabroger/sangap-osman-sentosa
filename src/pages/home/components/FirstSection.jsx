@@ -1,5 +1,5 @@
 import React from 'react';
-import RoundedButton from './widget/roundedButton';
+import RoundedButton from '../../../components/widget/roundedButton';
 export default function FirstSection() {
   return (
     <section className="min-h-screen  flex items-center overflow-hidden justify-center md:p-12">
