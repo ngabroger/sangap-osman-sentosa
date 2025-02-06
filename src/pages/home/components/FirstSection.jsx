@@ -1,4 +1,5 @@
 import React from 'react';
+import RoundedButton from './widget/roundedButton';
 export default function FirstSection() {
   return (
     <section className="min-h-screen  flex items-center overflow-hidden justify-center md:p-12">
@@ -48,9 +49,7 @@ export default function FirstSection() {
             </div>
             <div className="z-50 flex justify-end items-end absolute md:-bottom-5 -bottom-5 right-4 md:right-0">
               <div className="bg-white rounded-full w-16 h-16 flex items-center justify-center ">
-                <button className="arrow-button  bg-gray-900 text-white rounded-full w-12 h-12  items-center justify-center hover:bg-gray-800">
-                  ➜
-                </button>
+                <RoundedButton link="/shop" />
               </div>
             </div>
           </div>
