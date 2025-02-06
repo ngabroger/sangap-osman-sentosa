@@ -1,7 +1,7 @@
 import { useEffect } from 'react';
 import { Navbar } from 'flowbite-react';
 import '../index.css';
-
+import { Link } from 'react-router-dom';
 export default function NavbarComponent() {
   useEffect(() => {
     const handleScroll = () => {
@@ -30,11 +30,21 @@ export default function NavbarComponent() {
       </div>
 
       <Navbar.Collapse className="md:order-2 bg-white navbar-collapse  dark:bg-gray-500 rounded-md mt-5 md:m-0 md:dark:bg-transparent md:bg-transparent">
-        <Navbar.Link href="#">Home</Navbar.Link>
-        <Navbar.Link href="#">About</Navbar.Link>
-        <Navbar.Link href="#">Services</Navbar.Link>
-        <Navbar.Link href="#">Pricing</Navbar.Link>
-        <Navbar.Link href="#">Contact</Navbar.Link>
+        <Navbar.Link as={Link} href="/" to="/">
+          Home
+        </Navbar.Link>
+        <Navbar.Link as={Link} href="/about" to="/about">
+          About
+        </Navbar.Link>
+        <Navbar.Link as={Link} href="/services" to="/services">
+          Services
+        </Navbar.Link>
+        <Navbar.Link as={Link} href="/pricing" to="/pricing">
+          Pricing
+        </Navbar.Link>
+        <Navbar.Link as={Link} href="/contact" to="/contact">
+          Contact
+        </Navbar.Link>
       </Navbar.Collapse>
     </Navbar>
   );

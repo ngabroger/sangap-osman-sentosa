@@ -1,5 +1,5 @@
-import { Button } from './widget/button';
-import imageBackground from '../assets/images/background-image-4.png';
+import { Button } from '../../../components/widget/button';
+import imageBackground from '../../../assets/images/background-image-4.png';
 
 export default function SecondSection() {
   return (

@@ -1,4 +1,4 @@
-import { SliderComponent } from './widget/sliderComponents';
+import { SliderComponent } from '../../../components/widget/sliderComponents';
 
 export default function ThirdSection() {
   return (
