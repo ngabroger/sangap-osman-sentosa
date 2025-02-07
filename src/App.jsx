@@ -22,6 +22,7 @@ function App() {
         <Route path="/pricing" element={<PricingPage />} />
         <Route path="/services" element={<ServicesPage />} />
         <Route path="/detail/:id" element={<Detail />} />
+        <Route path="*" element={<NotFound />} />
       </Routes>
       <FooterSection />
     </Router>
