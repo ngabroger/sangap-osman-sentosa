@@ -9,6 +9,7 @@ import ContactPage from './pages/contact/contactpage';
 import PricingPage from './pages/pricing/pricingpage';
 import ServicesPage from './pages/services/servicespage';
 import ScrollToTop from './components/scrolltotop';
+import Detail from './pages/detail/detail';
 function App() {
   return (
     <Router>
@@ -20,6 +21,7 @@ function App() {
         <Route path="/contact" element={<ContactPage />} />
         <Route path="/pricing" element={<PricingPage />} />
         <Route path="/services" element={<ServicesPage />} />
+        <Route path="/detail/:id" element={<Detail />} />
       </Routes>
       <FooterSection />
     </Router>

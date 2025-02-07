@@ -1,5 +1,6 @@
 import React from 'react';
 import { Button } from '../../../components/widget/button';
+
 export default function HeroComponent() {
   return (
     <section className="items-center flex flex-col  h-fit mb-12 ">
@@ -19,7 +20,7 @@ export default function HeroComponent() {
                     kebocoran.
                   </p>
 
-                  <Button link="#" name="View More" />
+                  <Button link="/detail/1" name="View More" />
                 </div>
               </div>
             </div>

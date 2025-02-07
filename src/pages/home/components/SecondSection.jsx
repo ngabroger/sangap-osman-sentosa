@@ -15,17 +15,16 @@ export default function SecondSection() {
         </div>
         <div className="md:col-span-2 items-center text-center md:text-start md:items-start flex flex-col w-full justify-center max-w-screen ">
           <p className="font-primaryMedium ">Inovation | Resistance </p>
-          <h1 className="font-secondaryBold text-4xl md:text-7xl  mb-3 ">
+          <h1 className="font-secondaryBold text-4xl md:text-7xl  mb-2 ">
             Komitmen dalam Kualitas
           </h1>
-          <p className=" text-wrap md:w-2/3 p-5 md:p-0 mt-5 md:text-start">
+          <p className=" text-wrap md:w-2/3 p-5 md:p-0  md:text-start">
             Komitmen perusahaan terhadap inovasi dibuktikan dengan peluncuran
             berbagai produk unggulan yang dirancang untuk memenuhi standar
             kualitas tertinggi.
           </p>
           <div className="my-5">
-
-            <Button link="/about"  name="About Us " />
+            <Button link="/about" name="About Us " />
           </div>
         </div>
       </div>

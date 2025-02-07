@@ -1,98 +1,21 @@
+import { Button } from '../../../components/widget/button';
 export default function ForthSection() {
   return (
     <div className=" h-fit w-full p-12">
-      <div className="grid grid-cols-3 md:grid-cols-4 gap-4">
-        <div className="grid gap-4">
-          <div>
-            <img
-              className="h-auto max-w-full rounded-lg"
-              src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image.jpg"
-              alt=""
-            />
-          </div>
-          <div>
-            <img
-              className="h-auto max-w-full rounded-lg"
-              src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-1.jpg"
-              alt=""
-            />
-          </div>
-          <div>
-            <img
-              className="h-auto max-w-full rounded-lg"
-              src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-2.jpg"
-              alt=""
-            />
-          </div>
-        </div>
-        <div className="grid gap-4">
-          <div>
-            <img
-              className="h-auto max-w-full rounded-lg"
-              src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-3.jpg"
-              alt=""
-            />
-          </div>
-          <div>
-            <img
-              className="h-auto max-w-full rounded-lg"
-              src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-4.jpg"
-              alt=""
-            />
-          </div>
-          <div>
-            <img
-              className="h-auto max-w-full rounded-lg"
-              src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-5.jpg"
-              alt=""
-            />
-          </div>
-        </div>
-        <div className="grid gap-4">
-          <div>
-            <img
-              className="h-auto max-w-full rounded-lg"
-              src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-6.jpg"
-              alt=""
-            />
-          </div>
-          <div>
-            <img
-              className="h-auto max-w-full rounded-lg"
-              src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-7.jpg"
-              alt=""
-            />
-          </div>
-          <div>
-            <img
-              className="h-auto max-w-full rounded-lg"
-              src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-8.jpg"
-              alt=""
-            />
-          </div>
-        </div>
-        <div className="grid gap-4">
-          <div>
-            <img
-              className="h-auto max-w-full rounded-lg"
-              src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-3.jpg"
-              alt=""
-            />
-          </div>
-          <div>
-            <img
-              className="h-auto max-w-full rounded-lg"
-              src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-4.jpg"
-              alt=""
-            />
-          </div>
-          <div>
-            <img
-              className="h-auto max-w-full rounded-lg"
-              src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-5.jpg"
-              alt=""
-            />
-          </div>
+      <div className="flex flex-col md:flex-row justify-between">
+        <h2 className="text-4xl md:text-6xl font-secondaryBold text-end md:text-start mb-5">
+          Jelajahi Koleksi Kami yang
+          <br />
+          <span className="mt-4 inline-block">Membanggakan</span>
+        </h2>
+        <div className="flex flex-col flex-1 items-end">
+          <Button link="/pricing" name="View More"></Button>
+          <p className="text-end mt-5 max-w-md">
+            Temukan berbagai produk unggulan kami yang dirancang dengan kualitas
+            terbaik untuk memenuhi kebutuhan Anda. Dari bahan berkualitas tinggi
+            hingga desain inovatif, setiap produk kami dibuat dengan perhatian
+            terhadap detail dan komitmen terhadap kepuasan pelanggan.
+          </p>
         </div>
       </div>
     </div>
