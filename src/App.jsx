@@ -10,6 +10,7 @@ import PricingPage from './pages/pricing/pricingpage';
 import ServicesPage from './pages/services/servicespage';
 import ScrollToTop from './components/scrolltotop';
 import Detail from './pages/detail/detail';
+import NotFound from './components/notfound';
 function App() {
   return (
     <Router>
