@@ -1,5 +1,6 @@
 import { Button } from '../../../components/widget/button';
 import imageBackground from '../../../assets/images/background-image-4.png';
+import { Link } from 'react-router-dom';
 
 export default function SecondSection() {
   return (
@@ -23,7 +24,8 @@ export default function SecondSection() {
             kualitas tertinggi.
           </p>
           <div className="my-5">
-            <Button link="#" name="About Us " />
+
+            <Button link="/about"  name="About Us " />
           </div>
         </div>
       </div>

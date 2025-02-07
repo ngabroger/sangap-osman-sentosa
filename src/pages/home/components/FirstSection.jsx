@@ -49,7 +49,7 @@ export default function FirstSection() {
             </div>
             <div className="z-50 flex justify-end items-end absolute md:-bottom-5 -bottom-5 right-4 md:right-0">
               <div className="bg-white rounded-full w-16 h-16 flex items-center justify-center ">
-                <RoundedButton link="/shop" />
+                <RoundedButton link="/pricing" />
               </div>
             </div>
           </div>
