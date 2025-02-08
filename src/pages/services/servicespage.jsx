@@ -53,11 +53,11 @@ export default function ServicesPage() {
       </div>
 
       <div className="justify-start p-3 md:p-0 text-start">
-        {dataServices.map((data) => (
-          <>
+        {dataServices.map((data, index) => (
+          <div key={index}>
             <h2 className="text-4xl font-secondaryBold mb-4">{data.title}</h2>
             <p className="mb-9">{data.description}</p>
-          </>
+          </div>
         ))}
       </div>
     </div>
