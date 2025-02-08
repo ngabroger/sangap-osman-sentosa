@@ -25,7 +25,7 @@ export default function ServicesPage() {
   ];
 
   return (
-    <div className="flex flex-col md:flex-row md:m-20 justify-between h-fit max-w-screen-xl">
+    <div className="flex flex-col md:flex-row md:mx-20 md:my-8 justify-between h-fit max-w-screen-xl">
       <div className="flex  justify-center items-start max-w-xl  h-screen md:me-52">
         <div className="">
           <div className="p-2 md:p-0">
