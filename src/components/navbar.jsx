@@ -20,7 +20,7 @@ export default function NavbarComponent() {
   }, []);
   return (
     <Navbar fluid id="navbar" className="sticky-navbar  p-5 overflow-hidden">
-      <Navbar.Brand href="#" className="">
+      <Navbar.Brand href="/" as={Link} to="/" className="">
         <span className="self-center whitespace-nowrap text-xl md:text-3xl font-semibold  font-secondaryBold">
           Sangap <span className=" text-blue-500">Osman</span> Sentosa
         </span>
