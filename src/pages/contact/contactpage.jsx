@@ -1,4 +1,10 @@
-import ComingSoon from '../../components/comingsoon';
+import FirstSection from './components/firstSection';
+import SecondSection from './components/secondSection';
 export default function ContactPage() {
-  return <ComingSoon />;
+  return (
+    <div>
+      <FirstSection />
+      <SecondSection />
+    </div>
+  );
 }
