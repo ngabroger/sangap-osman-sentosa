@@ -5,7 +5,9 @@ export default function FirstSection() {
     <div className="h-fit w-full ">
       <div className="h-fit bg-blue-100 flex flex-col md:flex-row justify-between p-6 md:p-16 ">
         <div className="flex flex-col md:flex-col justify-center mb-12">
-          <h2 className="font-secondaryBold  text-6xl mb-5">Kontak Kami</h2>
+          <h2 className="font-secondaryBold  text-5xl md:text-6xl mb-5">
+            Kontak Kami
+          </h2>
           <p className="max-w-xl">
             Kami selalu siap mendengar dari Anda. Jika Anda memiliki pertanyaan,
             saran, atau membutuhkan informasi lebih lanjut tentang produk dan
