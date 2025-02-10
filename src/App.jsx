@@ -11,9 +11,11 @@ import ServicesPage from './pages/services/servicespage';
 import ScrollToTop from './components/scrolltotop';
 import Detail from './pages/detail/detail';
 import NotFound from './components/notfound';
+import SeoManage from './components/seoManage';
 function App() {
   return (
     <Router>
+      <SeoManage />
       <ScrollToTop />
       <NavbarComponet />
       <Routes>

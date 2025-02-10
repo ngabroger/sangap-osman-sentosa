@@ -25,7 +25,7 @@ export default function ServicesPage() {
   ];
 
   return (
-    <div className="flex flex-col md:flex-row md:mx-20 md:my-8 justify-between h-fit max-w-screen-xl">
+    <div className="flex flex-col md:flex-row md:mx-20 md:my-8  h-fit max-w-screen-2xl">
       <div className="flex  justify-center items-start max-w-xl  h-screen md:me-52">
         <div className="">
           <div className="p-2 md:p-0">
@@ -52,7 +52,7 @@ export default function ServicesPage() {
         </div>
       </div>
 
-      <div className="justify-start p-3 md:p-0 text-start">
+      <div className="justify-start p-3 md:p-0 text-start md:w-2/3 ">
         {dataServices.map((data, index) => (
           <div key={index}>
             <h2 className="text-4xl font-secondaryBold mb-4">{data.title}</h2>
