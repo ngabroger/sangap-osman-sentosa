@@ -26,7 +26,7 @@ export default function AboutPage() {
 
   return (
     <div>
-      <SeoManage />
+      <SeoManage title={'About'} />
       <div className="w-full h-fit">
         <div className="h-fit w-full ">
           <div className="flex flex-col md:flex-row items-center max-w-screen-xl justify-between h-1/2   mx-auto">

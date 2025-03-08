@@ -8,7 +8,7 @@ import SeoManage from '../../components/seoManage';
 export default function Homepage() {
   return (
     <div>
-      <SeoManage />
+      <SeoManage title={'HomePage'} />
       <HeroComponent />
       <FirstSection />
       <ThirdSection />

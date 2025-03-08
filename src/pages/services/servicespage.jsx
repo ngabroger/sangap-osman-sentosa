@@ -27,7 +27,7 @@ export default function ServicesPage() {
 
   return (
     <div>
-      <SeoManage />
+      <SeoManage title={'Services'} />
       <div className="flex flex-col md:flex-row md:mx-20 md:my-8  h-fit max-w-screen-2xl">
         <div className="flex  justify-center items-start max-w-xl  h-screen md:me-52">
           <div className="">
