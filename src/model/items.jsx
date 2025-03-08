@@ -8,7 +8,7 @@ var Link = 'https://sangaposmansentosa.vercel.app';
 export const items = [
   {
     id: 1,
-    image: Link + '/assets/images/extreme.jpg',
+    image: Link + '/assets/extreme-DDSKyYzx.jpg ',
     title: 'Extreme Waterproof',
     description:
       ' Pelapis anti bocor berkualitas tinggi untuk berbagai permukaan, memberikan perlindungan jangka panjang terhadap kebocoran.',
@@ -29,7 +29,7 @@ export const items = [
   },
   {
     id: 2,
-    image: Link + '/assets/images/acrylic.jpg',
+    image: Link + '/assets/acrylic-BdHIYhaa.jpg',
     title: 'Acrylic SOS',
     description:
       '  Bahan tambahan khusus untuk meningkatkan performa cat pada berbagai kondisi lingkungan.',
@@ -50,10 +50,10 @@ export const items = [
   },
   {
     id: 3,
-    image: Link + '/assets/images/metalpower.jpg',
+    image: Link + '/assets/metalpower-D3m0LZJ9.jpg',
     title: 'Metal Power',
     description:
-      '  Cat pelapis premium yang dirancang untuk melindungi dan memperindah permukaan besi dan kayu tanpa memerlukan thinner.',
+      'Cat pelapis premium yang dirancang untuk melindungi dan memperindah permukaan besi dan kayu tanpa memerlukan thinner.',
     advantage: (
       <>
         Memberikan perlindungan maksimal terhadap karat pada besi dan rayap pada
@@ -72,7 +72,7 @@ export const items = [
   },
   {
     id: 4,
-    image: Link + '/assets/images/juntax.jpg',
+    image: Link + '/assets/juntax-BBdDXD0T.jpg',
     title: 'Juntax Paint',
     description:
       '  Cat tembok berkualitas tinggi dengan harga ekonomis,tersedia dalam berbagai ukuran termasuk galon dan drum 200 kg.',
@@ -89,7 +89,7 @@ export const items = [
   },
   {
     id: 5,
-    image: Link + '/assets/images/foxxy.jpg',
+    image: Link + '/assets/foxxy-BAPtQghl.jpg',
     title: 'Lem Foxxy',
     description:
       '   Lem putih serbaguna yang ideal untuk berbagai aplikasi seperti kayu, kertas, dan kerajinan tangan.',
