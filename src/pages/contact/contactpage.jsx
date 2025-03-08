@@ -4,7 +4,7 @@ import SeoManage from '../../components/seoManage';
 export default function ContactPage() {
   return (
     <div>
-      <SeoManage />
+      <SeoManage title={'Contact Us'} />
       <FirstSection />
       <SecondSection />
     </div>

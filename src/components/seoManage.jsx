@@ -1,9 +1,9 @@
 import { Helmet } from 'react-helmet';
 
-export default function SeoManage() {
+export default function SeoManage({title}) {
   return (
     <Helmet>
-      <title>Sangap Osman Sentosa</title>
+      <title>Sangap Osman Sentosa |{title} </title>
       <meta
         name="description"
         content="Sangap Osman Sentosa - Your trusted partner for high-quality paint materials for construction projects, resellers, and personal use."
