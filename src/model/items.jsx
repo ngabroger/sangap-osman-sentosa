@@ -4,6 +4,7 @@ import juntax from '../assets/images/juntax.jpg';
 
 import metalpower from '../assets/images/metalpower.jpg';
 import foxxy from '../assets/images/foxxy.jpg';
+import viotex from '../assets/images/viotex.jpg';
 var Link = 'https://sangaposmansentosa.vercel.app';
 export const items = [
   {
@@ -110,7 +111,7 @@ export const items = [
   },
   {
     id: 6,
-    image: Link + '/assets/viotex.jpeg ',
+    image: viotex,
     title: 'Viotex Premium',
     description:
       ' Cat elastomer eksterior berkualitas tinggi yang dirancang untuk menutup retak rambut dan memberikan perlindungan kedap air.',
