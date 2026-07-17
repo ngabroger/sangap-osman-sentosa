@@ -108,4 +108,25 @@ export const items = [
     ),
     link: 'https://www.tokopedia.com/catosman/cat-besi-dan-kayu-tanpa-thiner-anti-karat-metal-power-1kg-1730832064224200185',
   },
+  {
+    id: 6,
+    image: Link + '/assets/viotex.jpeg ',
+    title: 'Viotex Premium',
+    description:
+      ' Cat elastomer eksterior berkualitas tinggi yang dirancang untuk menutup retak rambut dan memberikan perlindungan kedap air.',
+    advantage: (
+      <>
+        2X UV Protected Colours untuk ketahanan warna lebih lama.
+        <br />
+        Menutup dan mencegah keretakan pada dinding.
+        <br />
+        Waterproof, tahan terhadap rembesan air.
+        <br />
+        Waktu kering 4 jam dengan hasil akhir sheen finish.
+        <br />
+        Daya sebar hingga 13 m2 per lapis.
+      </>
+    ),
+    link: 'https://www.tokopedia.com/catosman/cat-besi-dan-kayu-tanpa-thiner-anti-karat-metal-power-1kg-1730832064224200185',
+  },
 ];
